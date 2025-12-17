@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyaccounting"
+version = "1.0"
+authors = [
+  { name="Navpreet", email="ns6685509@gmail.com" },
+]
+description = "A professional module for calculating core accounting ratios using Python math."
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools]
+py-modules = ["pyaccounting"]
+package-dir = {"" = "src"}
